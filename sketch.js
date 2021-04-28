@@ -33,11 +33,11 @@ function setup() {
   b1.addImage(b1img)
   b2=createSprite(displayWidth/2+200,-250,20,20);
   b2.addImage(b2img)
-  b4=createSprite(displayWidth/2-150,-350,20,20);
+  b4=createSprite(displayWidth/2+150,-350,20,20);
   b4.addImage(b4img)
   b5=createSprite(displayWidth/2+300,-300,20,20);
   b5.addImage(b5img)
-  b7=createSprite(displayWidth/2-700,-400,20,20);
+  b7=createSprite(displayWidth/2+700,-400,20,20);
   b7.addImage(b7img)
   b8=createSprite(displayWidth/2+10,-70,20,20);
   b8.addImage(b8img)
@@ -45,11 +45,11 @@ function setup() {
   b6.addImage(b6img)
   b3=createSprite(displayWidth/2+500,-200,20,20);
   b3.addImage(b3img)
-  finger=createSprite(700,750,500,500);
+  finger=createSprite(displayWidth/2-100,750,500,500);
   finger.addImage(fingerimg)
-  finger1=createSprite(200,750,500,500);
+  finger1=createSprite(displayWidth/2,750,500,500);
   finger1.addImage(fingerimg)
-  finger2=createSprite(1200,750,500,500);
+  finger2=createSprite(displayWidth/2+100,750,500,500);
   finger2.addImage(fingerimg)
   console.log(displayHeight)
 }
